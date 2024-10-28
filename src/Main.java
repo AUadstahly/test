@@ -41,7 +41,9 @@ public class Main {
     public static void main(String[] args) {
         //ArrayList<Test> stuff = new ArrayList<Test>() a generic
         Stuff<Test> s = new Stuff<Test>();
-        s.setThing(new Test(5));
+        Test t = new Test(5);
+        s.setThing(t);
+        System.out.println("Hello");
         s.print();
         System.out.println(s.getThing().getX()); //chaining
     }
