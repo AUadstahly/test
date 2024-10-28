@@ -44,6 +44,7 @@ public class Main {
         Test t = new Test(5);
         s.setThing(t);
         System.out.println("Hello");
+        System.out.println();
         s.print();
         System.out.println(s.getThing().getX()); //chaining
     }
